@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <title>Best coding classes for college - Junior Ninjas</title>
+
+    <meta name="description" content="Want to learn computer science? we teach your child the fundamentals of computer science in a fun and interactive way. App-game-web development |puzzles|quizzes">
+    <meta name="keywords" content="coding, computer science, Damoh, blockly, programing,  kids, school, tech, future, app development, web development, game development, junior ninjas">
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '791594404885065');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=791594404885065&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-201384400-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-201384400-1');
+    </script>
+       <!-- Facebook Pixel Code JN -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '420307462993298');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=420307462993298&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu single_page_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand logo_1" href="index.html"> <img src="img/logo.png" alt="logo"
+                                style="height: 70px; width: 150px; "> </a>
+                        <a class="navbar-brand logo_2" href="index.html"> <img src="img/logo.png" alt="logo"
+                                style="height: 70px; width: 150px;"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item justify-content-end"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <!--- <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li> -->
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="course.html">Courses</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+							    <li class="d-none d-lg-block">
+                                    <a class="btn_1" href="signup.html">Book Your Seat</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- breadcrumb start-->
+    <section class="breadcrumb breadcrumb_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner text-center">
+                        <div class="breadcrumb_iner_item">
+                            <h2>Course Details (Beginners)</h2>
+                            <p>Home<span>/</span>Course Details</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb start-->
+
+    <!--================ Start Course Details Area =================-->
+    <section class="course_details_area section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 course_details_left">
+                    <div class="main_image">
+                        <img class="img-fluid" src="img/beginner-details/beginners.jpg" alt="">
+                    </div>
+                    <div class="content_wrapper">
+                        <h4 class="title_top">Objectives</h4>
+                        <div class="content">
+                            An introduction to computer science for beginners. The objective of this course is to
+                            introduce the student to the world of computer science, principles of programming and
+                            getting connected to the internet. Students will use a visual block platform(scratch) to
+                            learn the basics of coding and work through fun challenges! Visual Block programming have a
+                            visual interface and consists of dragging and dropping blocks of instructions to be executed
+                            in order. It is a great way to build a logical thinking foundation such as creating
+                            sequence, conditional statements, loops, functions, and debugging. The kids are able to
+                            create programs or instructions to the computer without learning the syntax of a computer
+                            language.
+
+                            In this course we would analyze the interest of children in computer science through various
+                            techniques. Keep in mind though that every child is different. Some kids take a larger
+                            amount of time to learn the concepts while others who are naturally inclined to
+                            computational thinking breeze through learning even at a young age. Coding is not just about
+                            building softwares and applications, it helps children with communication, creativity, math,
+                            problem-solving, etc.
+                        </div>
+
+                        <h4 class="title">Eligibility</h4>
+                        <div class="content">
+                            Grade 6 to 12 students are eligible for this course.
+                        </div>
+
+                        <h4 class="title">Course Outline</h4>
+                        <div class="content">
+                            <ul class="course_list">
+                                <li class="justify-content-between align-items-center d-flex">
+                                    <p>1. Introduction to Computers science</p>
+                                    <!-- <a class="btn_2 text-uppercase" href="#">View Details</a> -->
+                                </li>
+                                <li class="justify-content-between align-items-center d-flex">
+                                    <p>2. How Computer Works</p>
+                                    <!-- <a class="btn_2 text-uppercase" href="#">View Details</a> -->
+                                </li>
+                                <li class="justify-content-between align-items-center d-flex">
+                                    <p>3. What is Internet </p>
+                                    <!-- <a class="btn_2 text-uppercase" href="#">View Details</a> -->
+                                </li>
+                                <li class="justify-content-between align-items-center d-flex">
+                                    <p>4. Introduction to computer languages</p>
+                                    <!-- <a class="btn_2 text-uppercase" href="#">View Details</a> -->
+                                </li>
+                                <li class="justify-content-between align-items-center d-flex">
+                                    <p>5. Sequencing & Loops</p>
+                                    <!-- <a class="btn_2 text-uppercase" href="#">View Details</a> -->
+                                </li>
+                                <li class="justify-content-between align-items-center d-flex">
+                                    <p>6. Events</p>
+                                    <!-- <a class="btn_2 text-uppercase" href="#">View Details</a> -->
+                                </li>
+                                <li class="justify-content-between align-items-center d-flex">
+                                    <p>7. Mini project </p>
+                                    <!-- <a class="btn_2 text-uppercase" href="#">View Details</a> -->
+                                </li>
+                                <li class="justify-content-between align-items-center d-flex">
+                                    <p>8. Fun activities (Puzzles and games)</p>
+                                    <!-- <a class="btn_2 text-uppercase" href="#">View Details</a> -->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 right-contents">
+                    <div class="sidebar_top">
+                        <ul>
+                            <li>
+                                <a class="justify-content-between d-flex">
+                                    <p>Number of lectures</p>
+                                    <span class="color">15</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex">
+                                    <p>Course Fee </p>
+                                    <span class="color">2499 <br>
+                                        (For a limited time only)
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <a href="signup.html" class="btn_1 d-block">Enroll for the course</a>
+                    </div>
+
+                    <!-- <h4 class="title">Reviews</h4>
+                    <div class="content">
+                        <div class="review-top row pt-40">
+                            <div class="col-lg-12">
+                                <h6 class="mb-15">Provide Your Rating</h6>
+                                <div class="d-flex flex-row reviews justify-content-between">
+                                    <span>Quality</span>
+                                    <div class="rating">
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <span>Outstanding</span>
+                                </div>
+                                <div class="d-flex flex-row reviews justify-content-between">
+                                    <span>Puncuality</span>
+                                    <div class="rating">
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <span>Outstanding</span>
+                                </div>
+                                <div class="d-flex flex-row reviews justify-content-between">
+                                    <span>Quality</span>
+                                    <div class="rating">
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                        <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                    </div>
+                                    <span>Outstanding</span>
+                                </div>
+
+                            </div>
+                        </div> -->
+                    <!-- <div class="feedeback">
+                            <h6>Your Feedback</h6>
+                            <textarea name="feedback" class="form-control" cols="10" rows="10"></textarea>
+                            <div class="mt-10 text-right">
+                            </div>
+                            <div class="comments-area mb-30">
+                                <div class="comment-list">
+                                    <div class="single-comment single-reviews justify-content-between d-flex">
+                                        <div class="user justify-content-between d-flex">
+                                            <div class="thumb">
+                                                <img src="img/cource/cource_1.png" alt="">
+                                            </div>
+                                            <div class="desc">
+                                                <h5><a href="#">Emilly Blunt</a>
+                                                </h5>
+                                                <div class="rating">
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                                </div>
+                                                <p class="comment">
+                                                    Blessed made of meat doesn't lights doesn't was dominion and sea
+                                                    earth
+                                                    form
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-list">
+                                    <div class="single-comment single-reviews justify-content-between d-flex">
+                                        <div class="user justify-content-between d-flex">
+                                            <div class="thumb">
+                                                <img src="img/cource/cource_2.png" alt="">
+                                            </div>
+                                            <div class="desc">
+                                                <h5><a href="#">Elsie Cunningham</a>
+                                                </h5>
+                                                <div class="rating">
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                                </div>
+                                                <p class="comment">
+                                                    Blessed made of meat doesn't lights doesn't was dominion and sea
+                                                    earth
+                                                    form
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-list">
+                                    <div class="single-comment single-reviews justify-content-between d-flex">
+                                        <div class="user justify-content-between d-flex">
+                                            <div class="thumb">
+                                                <img src="img/cource/cource_3.png" alt="">
+                                            </div>
+                                            <div class="desc">
+                                                <h5><a href="#">Maria Luna</a>
+                                                </h5>
+                                                <div class="rating">
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                                                    <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                                                </div>
+                                                <p class="comment">
+                                                    Blessed made of meat doesn't lights doesn't was dominion and sea
+                                                    earth
+                                                    form
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    </section>
+    <!--================ End Course Details Area =================-->
+
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="single-footer-widget footer_1">
+                       
+                       
+                        
+                       
+
+                    </div>
+                </div> 
+     <div class="col-sm-6 col-md-4 col-xl-4">
+                    <div class="single-footer-widget footer_2">
+                      
+                    </div>
+                </div>
+
+               
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="copyright_part_text text-center">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h4>Follow Us</h4>
+                       
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/juniorninjas.fb" target="_blank" class="fa fa-facebook"></a>
+                                <a href="https://instagram.com/junior.ninjas?utm_medium=copy_link"  target="_blank" class="fa fa-instagram"></a>
+                                <a href="https://www.youtube.com/channel/UCJeEhqxFMBuiePnLT7K908g" target="_blank" class="fa fa-youtube"></a>
+                                
+                          </div>
+                            <p class="footer-text m-0">
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> -
+                                www.juniorninjas.in.
+                                All rights reserved <i class="ti-heart" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!-- footer part end-->
+
+    <!-- jquery plugins here-->
+    <!-- jquery -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/masonry.pkgd.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

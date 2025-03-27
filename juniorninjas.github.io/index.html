@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <title>Best coding classes for all - Junior Ninjas</title>
+
+    <meta name="description" content="Want to learn computer science? we teach your child the fundamentals of computer science in a fun and interactive way. App-game-web development |puzzles|quizzes">
+    <meta name="keywords" content="coding, computer science, Damoh, blockly, programing,  kids, school, tech, future, app development, web development, game development, junior ninjas">
+    <link rel="icon" type="image/jpg" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+<!--     <link rel="stylesheet" href="css/runningText.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script async src="https://js.convertflow.co/production/websites/32597.js"></script>
+
+    <!-- Facebook  Pixel Code -->
+
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '791594404885065');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=791594404885065&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-201384400-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-201384400-1');
+    </script>
+
+       <!-- Facebook Pixel Code JN -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '420307462993298');
+    fbq('track', 'PageView');
+  </script>
+  <script>
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=420307462993298&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">fv
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"
+                                style="height: 70px; width: 150px;"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item justify-content-end"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html" id="homeLink">Home</a>
+                                </li>
+                                <!--- <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="course.html" id = "course link">Courses</a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="career.html"> Hiring Now <img src="img/new.png" style="width: 40px; height:40px;"> </a>
+                                </li>
+                                <li class="d-none d-lg-block">
+                                    <a class="btn_1" href="book-free-coding-class.html">Book Your Seat</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+ 
+    <!-- banner part start-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-xl-6">
+                    <div class="banner_text">
+                        <div class="banner_text_iner">
+                            <h5 id = "colorchange">We bring coding and creativity together</h5>
+                            <!--  <h1 style="display:inline-block;"> <span style="font-size: 30px;"> Welcome to </span><span style="color: black; font-size: 50px;"> Junior Ninjas</span></h1> -->
+                            <h1 style="color:rgb(255, 0, 255)" id = "abc">Change the world by learning
+                            </h1>
+                            <h12 style=" font-size: 50px">
+                                <a href="" class="typewrite"  data-period="2000" data-type='[ "    Think", "   Code", "   Create", "....." ]'>
+                                  <span class="wrap"></span>
+                                </a>
+                            </h12>
+                            <p> Computer Science helps children with communication, creativity, math, problem-solving and prepares them for skills needed in a world.
+                                <!-- Nowadays kids are interested in playing games on computers and phones. but they can spend that same time developing their own games, apps, and websites and have the same amount of fun. -->
+                                </p>
+                            <a href="course.html" class="btn_1">Explore courses </a>
+                            <a href="book-free-coding-class.html" class="btn_2">Book a Free Class </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner part start-->
+    
+	
+	<!--::College courses start::-->
+    <section class="special_cource padding_top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section_tittle text-center">
+
+                        <h2>College Student Courses </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/cartoon1.jpg" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="college-beginner-details.html" class="btn_4">Beginners</a>
+
+                            <a href="college-beginner-details.html">
+                                <h3>An Introduction to computer Science, coding and Python</h3>
+                            </a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/cartoon2.jpg" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="college-intermediate-details.html" class="btn_4">Intermediate</a>
+
+                            <a href="college-intermediate-details.html">
+                                <h3> Learn advanced coding with python and real life project</h3>
+                            </a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/cartoon3.jpg" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="college-advanced-details.html" class="btn_4">Advanced</a>
+
+                            <a href="college-advanced-details.html">
+                                <h3>Game, Web , and Desktop Software Development with pyhton</h3>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+	<!--::College courses end::-->
+    
+    <!--::Kids courses start::-->
+    <section class="special_cource padding_top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section_tittle text-center">
+
+                        <h2>Kids Courses</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/cartoon4.jpg" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="beginner-details.html" class="btn_4">Beginners</a>
+
+                            <a href="beginner-details.html">
+                                <h3>Learn the basics of Computer programming with Blockly and apply your knowledge to make some cool
+                                    mini projects in blockly</h3>
+                            </a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/cartoon5.jpg" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="intermediate-details.html" class="btn_4">Intermediate</a>
+
+                            <a href="intermediate-details.html">
+                                <h3> Enhance your basic knowledge of computer science by working on bigger and advanced
+                                    projects. </h3>
+                            </a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/cartoon6.jpg" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="advanced-details.html" class="btn_4">Advanced</a>
+
+                            <a href="advanced-details.html">
+                                <h3>Take the next step on your CS Journey. Explore career paths, extended learning,
+                                    scholarships, and more</h3>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+	<!--::Kids courses start::-->
+	
+	
+       <!--::Maths Kids courses start::-->
+    <!-- <section class="special_cource padding_top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section_tittle text-center">
+
+                        <h2>Math Kids Courses</h2>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_special_cource">
+                        <img src="img/fundamental_maths.jpg" class="special_img" alt="">
+                        <div class="special_cource_text">
+                            <a href="fundamental-maths-course.html" class="btn_4">Fundamental of Mathamatics</a>
+
+                            <a href="fundamental-maths-course.html">
+                                <h3> Learn basic concept of Math by fun activity</h3>
+                            </a>
+						</div>
+
+                    </div>
+                </div>
+                
+            </div>
+    </section> -->
+
+	<!--::Maths Kids courses start::-->
+	
+    <!--::blog_part end::-->
+
+    <!-- learning part start-->
+    <!-- <section class="advance_feature learning_part">
+        <div class="container">
+            <div class="row align-items-sm-center align-items-xl-stretch">
+                <div class="col-md-6 col-lg-6">
+                    <div class="learning_member_text">
+                        <h5>Advance feature</h5>
+                        <h2>Our Advance Educator
+                            Learning System</h2>
+                        <p> we have designed our courses in way that the child should learn it in a fun and interactive
+                            way. we also have the best faculty avaialbel with us, that teaches brilliantly</p>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <div class="learning_member_text_iner">
+                                    <span class="ti-pencil-alt"></span>
+                                    <h4>Learn Anywhere</h4>
+                                    <p>You can also learn from anywhere from your comfort zone</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <div class="learning_member_text_iner">
+                                    <span class="ti-stamp"></span>
+                                    <h4>Expert Teacher</h4>
+                                    <p>We are equipped with the best teachers in the industry</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="learning_img">
+                        <img src="img/advance_feature_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- learning part end-->
+    <!-- informative video about jn section starts here-->
+
+    <section class="blog_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-20">
+                    <div class="section_tittle text-center">
+
+
+                        <h2> Watch this video to know about us</h2>
+
+                    </div>
+                </div>
+            </div>
+           
+                            <div class="iframe-container">
+                            <iframe width="868" height="488" src="https://www.youtube.com/embed/dreOdCykT8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                       
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+     <!-- informative video about jn section ends here-->
+
+    <!-- feature_part start-->
+    <!-- <section class="feature_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xl-3 align-self-center">
+                    <div class="single_feature_text ">
+                        <h2>Awesome <br> Features</h2>
+                        <p> We have designed our courses keeping in mind that they should be fun and interactive. we
+                            have added various features like games, puzzles and many fun activities. </p>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single_feature">
+                        <div class="single_feature_part">
+                            <span class="single_feature_icon"><i class="ti-layers"></i></span>
+                            <h4>Better Future</h4>
+                            <p> Computer science is not just about computers it increases a child's ability to solve
+                                problems and become good in whatever field they choose.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single_feature">
+                        <div class="single_feature_part">
+                            <span class="single_feature_icon"><i class="ti-new-window"></i></span>
+                            <h4>Qualified Trainers</h4>
+                            <p> We have qualified trainers who have deep understanding of computer science and have
+                                relevent experience in teaching.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="single_feature">
+                        <div class="single_feature_part single_feature_part_2">
+                            <span class="single_service_icon style_icon"><i class="ti-light-bulb"></i></span>
+                            <h4>Job Oppurtunity</h4>
+                            <p> If we talk about job opportunities, computer science is the biggest job provider
+                                currently and in future also. various roles are there in cs like web developer, android
+                                developer, data scientist, data analyst and many more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- upcoming_event part start-->
+     
+    <!-- learning part start-->
+    <!-- <section class="learning_part">
+        <div class="container">
+            <div class="row align-items-sm-center align-items-lg-stretch">
+                <div class="col-md-7 col-lg-7">
+                    <div class="learning_img">
+                        <img src="img/learning_img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-5">
+                    <div class="learning_member_text">
+                        <h5>About us</h5>
+                        <h2>Learning with Love
+                            and Laughter</h2>
+                        <p> As we know is a path which is best achieved with great interaction and patience , so we have
+                            designed our courses equipped with games and puzzles.</p>
+                        <ul>
+                            <li><span class="ti-pencil-alt"></span>Teaching programing conecpts using visual block language.</li>
+                            <li><span class="ti-ruler-pencil"></span>Using intreactive and fun characters kids are familier with.</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- learning part end-->
+  
+    <!-- member_counter counter start -->
+    <section class="member_counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_member_counter">
+                        <span class="counter">1024</span>
+                        <h4>Interactive Exercises</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_member_counter">
+                        <span class="counter">160</span>
+                        <h4> Lesson </h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_member_counter">
+                        <span class="counter">220</span>
+                        <h4>Project Ideas</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_member_counter">
+                        <span class="counter">3</span>
+                        <h4>Learning Platform</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- member_counter counter end -->
+
+    <!--::review_part start::-->
+    <!-- <section class="blog_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-20">
+                    <div class="section_tittle text-center">
+
+
+                        <h2> What world leaders say about learning computer science</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <a href="https://youtu.be/IY7EsTnUSxY" target="_blank">
+                                <div class="cont1">
+                                    <div class="wrapper">
+                                        <div class="tri"></div>
+                                    </div>
+                            </a>
+                        </div>
+                        <p>Steve jobs on computer science</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-4">
+                <div class="single-home-blog">
+                    <div class="card">
+                        <a href="https://youtu.be/JDw1ii7aKwg" target="_blank">
+                            <div class="cont2">
+                                <div class="wrapper">
+                                    <div class="tri"></div>
+                                </div>
+                        </a>
+                    </div>
+                    <p> President obama asks all students to learn computer science</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-4">
+            <div class="single-home-blog">
+                <div class="card">
+                    <a href="https://youtu.be/kx3DxBbweGY" target="_blank">
+                        <div class="cont3">
+                            <div class="wrapper">
+                                <div class="tri"></div>
+                            </div>
+                    </a>
+                </div>
+                <p> Chris bosch on computer science</p>
+            </div>
+
+        </div>
+        </div>
+        </div>
+        </div>
+    </section> -->
+    <!--::blog_part end::-->
+    <!-- <section class="testimonial_part">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section_tittle text-center">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="textimonial_iner owl-carousel">
+                        <div class="testimonial_slider">
+                            <div class="row">
+                                <div class="col-lg-8 col-xl-4 col-sm-8 align-self-center">
+                                    <div class="testimonial_slider_text">
+                                        <p> Everyone should learn how to code, it teaches you how to think.</p>
+                                        <h4>Steve Jobs</h4>
+                                        <h5> American business magnate</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-xl-2 col-sm-4">
+                                    <div class="testimonial_slider_img">
+                                        <img src="img/stevejobs.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-none d-xl-block">
+                                    <div class="testimonial_slider_text">
+                                        <p>We want every kid in the world to be excited about the many possibilities
+                                            coding can unlock -- for themselves, for their communities and for society.
+                                            Everyone should have the opportunity to learn computer science at school and
+                                            beyond. </p>
+                                        <h4>sundar pichai</h4>
+                                        <h5> CEO, Google and Alphabate</h5>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 d-none d-xl-block">
+                                    <div class="testimonial_slider_img">
+                                        <img src="img/Sundar-Pichai.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial_slider">
+                            <div class="row">
+                                <div class="col-lg-8 col-xl-4 col-sm-8 align-self-center">
+                                    <div class="testimonial_slider_text">
+                                        <p> In fifteen years we'll be teaching programming just like reading and
+                                            writing... and wondering why we didn't do it sooner.</p>
+                                        <h4> Mark Zuckerberg </h4>
+                                        <h5> CEO, Facebook </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-xl-2 col-sm-4">
+                                    <div class="testimonial_slider_img">
+                                        <img src="img/mark-zuckerberg.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-none d-xl-block">
+                                    <div class="testimonial_slider_text">
+                                        <p> Every girl deserves to take part in creating the technology that will change
+                                            our world, and change who runs it.</p>
+                                        <h4> Malala Yousafzai</h4>
+                                        <h5> Nobel Peace Prize Winner </h5>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 d-none d-xl-block">
+                                    <div class="testimonial_slider_img">
+                                        <img src="img/Malala-Yousafzai.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial_slider">
+                            <div class="row">
+                                <div class="col-lg-8 col-xl-4 col-sm-8 align-self-center">
+                                    <div class="testimonial_slider_text">
+                                        <p>Learning to write programs stretches your mind, and helps you think better,
+                                            creates a way of thinking about things that I think is helpful in all
+                                            domains.</p>
+                                        <h4>Bill Gates</h4>
+                                        <h5> Co-Chairman, Bill & Melinda Gates Foundation and Co-Founder, Microsoft</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-xl-2 col-sm-4">
+                                    <div class="testimonial_slider_img">
+                                        <img src="img/bill-gates.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-none d-xl-block">
+                                    <div class="testimonial_slider_text">
+                                        <p> An understanding of computer science is becoming increasingly essential in
+                                            today’s world. Our national competitiveness depends upon our ability to
+                                            educate our children—and that includes our girls—in this critical field.</p>
+                                        <h4>Sheryl Sandberg</h4>
+                                        <h5> Chief Operating Officer, Facebook</h5>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 d-none d-xl-block">
+                                    <div class="testimonial_slider_img">
+                                        <img src="img/Sheryl-Sandberg.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+    <!--::blog_part end::-->
+
+    <section class="blog_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5">
+                    <div class="section_tittle text-center">
+
+                        <h2> Career in computer science</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <a href="https://youtu.be/t0-Z_LfGwUM" target="_blank">
+                                <div class="cont4">
+                                    <div class="wrapper">
+                                        <div class="tri"></div>
+                                    </div>
+                            </a>
+                        </div>
+                        <p>My name is Brina and I'm a Software Engineer at Instagram</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-4">
+                <div class="single-home-blog">
+                    <div class="card">
+                        <a href="https://youtu.be/suJZ9z426P0" target="_blank">
+                            <div class="cont5">
+                                <div class="wrapper">
+                                    <div class="tri"></div>
+                                </div>
+                        </a>
+                    </div>
+               
+
+
+
+
+
+
+
+
+
+
+
+			   <p>My name is kinsley and i am a software engineer at facebook</p>
+                    <!-- <div class="card-body">
+                                <a href="#" class="btn_4">Developing</a>
+                                <a href="blog.html">
+                                    <h5 class="card-title">All beginning air two likeness</h5>
+                                </a>
+                                <p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+                                <ul>
+                                    <li> <span class="ti-comments"></span>2 Comments</li>
+                                    <li> <span class="ti-heart"></span>2k Like</li>
+                                </ul>
+                            </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-4">
+            <div class="single-home-blog">
+                <div class="card">
+                    <a href="https://youtu.be/RfbbDgx6l1g" target="_blank">
+                        <div class="cont6">
+                            <div class="wrapper">
+                                <div class="tri"></div>
+                            </div>
+                    </a>
+                </div>
+                <p>My name is Tess and i am a software engineer at google</p>
+                <!--  <div class="card-body">
+                                <a href="#" class="btn_4">Design</a>
+                                <a href="blog.html">
+                                    <h5 class="card-title">Form day seasons sea hand</h5>
+                                </a>
+                                <p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+                                <ul>
+                                    <li> <span class="ti-comments"></span>2 Comments</li>
+                                    <li> <span class="ti-heart"></span>2k Like</li>
+                                </ul>
+                            </div> -->
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="single-footer-widget footer_1">
+                       
+                        <h4>Career</h4>
+                        <p>Stay updated with our latest job openings .
+                        </p>
+                      <button style="border-radius: 10px;"><a href="career.html">visit latets job openings</a></button>
+                       
+
+                    </div>
+                </div> 
+     <div class="col-sm-6 col-md-4 col-xl-4">
+                    <div class="single-footer-widget footer_2">
+                        <div class="contact_info">
+                            <h4>Contact us</h4>
+                            <p><span> Phone :</span> 9893439362, 9098676888</p>
+                            <p><span> Email : </span>juniorninjas.in@gmail.com </p>
+                            </div>
+                       
+                    </div>
+                </div>
+
+               
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="copyright_part_text text-center">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h4>Follow Us</h4>
+                       
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/juniorninjas.fb" target="_blank" class="fa fa-facebook"></a>
+                                <a href="https://instagram.com/junior.ninjas?utm_medium=copy_link"  target="_blank" class="fa fa-instagram"></a>
+                                <a href="https://www.youtube.com/channel/UCJeEhqxFMBuiePnLT7K908g" target="_blank" class="fa fa-youtube"></a>
+                                
+                          </div>
+                            <p class="footer-text m-0">
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> -
+                                www.juniorninjas.in.
+                                All rights reserved <i class="ti-heart" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!-- footer part end-->
+  
+    <!-- jquery plugins here-->
+    <!-- jquery -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/masonry.pkgd.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
